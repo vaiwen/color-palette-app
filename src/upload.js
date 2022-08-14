@@ -30,8 +30,6 @@ colors.forEach(element => {
     // console.log(text)
 });
 
-cakma = [[101,205,30],[101,205,30],[110,20,30],[150,210,240],[150,210,40]]
-
 sort(colorArray)
 
 

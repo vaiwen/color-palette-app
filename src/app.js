@@ -18,7 +18,7 @@ raster.on('load', function() {
 	// Since the example image we're using is much too large,
 	// and therefore has way too many pixels, lets downsize it to
 	// 40 pixels wide and 30 pixels high:
-	raster.size = new Size(10, 10); // 40 30 --- 30 40
+	raster.size = new Size(15, 20); // 40 30 --- 30 40
 
 	for (var y = 0; y < raster.height; y++) {
 		for(var x = 0; x < raster.width; x++) {

@@ -43,10 +43,11 @@ img {
 .colors {
     max-width: 100%;
     height: 20%;
-    border: 1px solid red;
+    color: #fff;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .color-box {
@@ -61,8 +62,8 @@ img {
 }
 
 .color-circle {
-    width: 75px;
-    height: 75px;
+    width: 84px;
+    height: 84px;
     border-radius: 50%;
     border: 1px solid black;
     display: flex;
